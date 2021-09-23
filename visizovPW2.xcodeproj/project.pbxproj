@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEC912E126FCDA23004762B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC912E026FCDA23004762B1 /* AppDelegate.swift */; };
+		CEC912E326FCDA23004762B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC912E226FCDA23004762B1 /* SceneDelegate.swift */; };
+		CEC912E526FCDA23004762B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC912E426FCDA23004762B1 /* ViewController.swift */; };
+		CEC912E826FCDA23004762B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC912E626FCDA23004762B1 /* Main.storyboard */; };
+		CEC912EA26FCDA26004762B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC912E926FCDA26004762B1 /* Assets.xcassets */; };
+		CEC912ED26FCDA26004762B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC912EB26FCDA26004762B1 /* LaunchScreen.storyboard */; };
+		CEC912F826FCDA27004762B1 /* visizovPW2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC912F726FCDA27004762B1 /* visizovPW2Tests.swift */; };
+		CEC9130326FCDA27004762B1 /* visizovPW2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC9130226FCDA27004762B1 /* visizovPW2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEC912F426FCDA27004762B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC912D526FCDA23004762B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC912DC26FCDA23004762B1;
+			remoteInfo = visizovPW2;
+		};
+		CEC912FF26FCDA27004762B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC912D526FCDA23004762B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC912DC26FCDA23004762B1;
+			remoteInfo = visizovPW2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEC912DD26FCDA23004762B1 /* visizovPW2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = visizovPW2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC912E026FCDA23004762B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEC912E226FCDA23004762B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEC912E426FCDA23004762B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEC912E726FCDA23004762B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEC912E926FCDA26004762B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEC912EC26FCDA26004762B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEC912EE26FCDA26004762B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC912F326FCDA27004762B1 /* visizovPW2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = visizovPW2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC912F726FCDA27004762B1 /* visizovPW2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visizovPW2Tests.swift; sourceTree = "<group>"; };
+		CEC912F926FCDA27004762B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC912FE26FCDA27004762B1 /* visizovPW2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = visizovPW2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC9130226FCDA27004762B1 /* visizovPW2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visizovPW2UITests.swift; sourceTree = "<group>"; };
+		CEC9130426FCDA27004762B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC912DA26FCDA23004762B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC912F026FCDA27004762B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC912FB26FCDA27004762B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC912D426FCDA23004762B1 = {
+			isa = PBXGroup;
+			children = (
+				CEC912DF26FCDA23004762B1 /* visizovPW2 */,
+				CEC912F626FCDA27004762B1 /* visizovPW2Tests */,
+				CEC9130126FCDA27004762B1 /* visizovPW2UITests */,
+				CEC912DE26FCDA23004762B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC912DE26FCDA23004762B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC912DD26FCDA23004762B1 /* visizovPW2.app */,
+				CEC912F326FCDA27004762B1 /* visizovPW2Tests.xctest */,
+				CEC912FE26FCDA27004762B1 /* visizovPW2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC912DF26FCDA23004762B1 /* visizovPW2 */ = {
+			isa = PBXGroup;
+			children = (
+				CEC912E026FCDA23004762B1 /* AppDelegate.swift */,
+				CEC912E226FCDA23004762B1 /* SceneDelegate.swift */,
+				CEC912E426FCDA23004762B1 /* ViewController.swift */,
+				CEC912E626FCDA23004762B1 /* Main.storyboard */,
+				CEC912E926FCDA26004762B1 /* Assets.xcassets */,
+				CEC912EB26FCDA26004762B1 /* LaunchScreen.storyboard */,
+				CEC912EE26FCDA26004762B1 /* Info.plist */,
+			);
+			path = visizovPW2;
+			sourceTree = "<group>";
+		};
+		CEC912F626FCDA27004762B1 /* visizovPW2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC912F726FCDA27004762B1 /* visizovPW2Tests.swift */,
+				CEC912F926FCDA27004762B1 /* Info.plist */,
+			);
+			path = visizovPW2Tests;
+			sourceTree = "<group>";
+		};
+		CEC9130126FCDA27004762B1 /* visizovPW2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC9130226FCDA27004762B1 /* visizovPW2UITests.swift */,
+				CEC9130426FCDA27004762B1 /* Info.plist */,
+			);
+			path = visizovPW2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC912DC26FCDA23004762B1 /* visizovPW2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC9130726FCDA27004762B1 /* Build configuration list for PBXNativeTarget "visizovPW2" */;
+			buildPhases = (
+				CEC912D926FCDA23004762B1 /* Sources */,
+				CEC912DA26FCDA23004762B1 /* Frameworks */,
+				CEC912DB26FCDA23004762B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = visizovPW2;
+			productName = visizovPW2;
+			productReference = CEC912DD26FCDA23004762B1 /* visizovPW2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEC912F226FCDA27004762B1 /* visizovPW2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC9130A26FCDA27004762B1 /* Build configuration list for PBXNativeTarget "visizovPW2Tests" */;
+			buildPhases = (
+				CEC912EF26FCDA27004762B1 /* Sources */,
+				CEC912F026FCDA27004762B1 /* Frameworks */,
+				CEC912F126FCDA27004762B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC912F526FCDA27004762B1 /* PBXTargetDependency */,
+			);
+			name = visizovPW2Tests;
+			productName = visizovPW2Tests;
+			productReference = CEC912F326FCDA27004762B1 /* visizovPW2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEC912FD26FCDA27004762B1 /* visizovPW2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC9130D26FCDA27004762B1 /* Build configuration list for PBXNativeTarget "visizovPW2UITests" */;
+			buildPhases = (
+				CEC912FA26FCDA27004762B1 /* Sources */,
+				CEC912FB26FCDA27004762B1 /* Frameworks */,
+				CEC912FC26FCDA27004762B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC9130026FCDA27004762B1 /* PBXTargetDependency */,
+			);
+			name = visizovPW2UITests;
+			productName = visizovPW2UITests;
+			productReference = CEC912FE26FCDA27004762B1 /* visizovPW2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC912D526FCDA23004762B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CEC912DC26FCDA23004762B1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					CEC912F226FCDA27004762B1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CEC912DC26FCDA23004762B1;
+					};
+					CEC912FD26FCDA27004762B1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CEC912DC26FCDA23004762B1;
+					};
+				};
+			};
+			buildConfigurationList = CEC912D826FCDA23004762B1 /* Build configuration list for PBXProject "visizovPW2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEC912D426FCDA23004762B1;
+			productRefGroup = CEC912DE26FCDA23004762B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC912DC26FCDA23004762B1 /* visizovPW2 */,
+				CEC912F226FCDA27004762B1 /* visizovPW2Tests */,
+				CEC912FD26FCDA27004762B1 /* visizovPW2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC912DB26FCDA23004762B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC912ED26FCDA26004762B1 /* LaunchScreen.storyboard in Resources */,
+				CEC912EA26FCDA26004762B1 /* Assets.xcassets in Resources */,
+				CEC912E826FCDA23004762B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC912F126FCDA27004762B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC912FC26FCDA27004762B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC912D926FCDA23004762B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC912E526FCDA23004762B1 /* ViewController.swift in Sources */,
+				CEC912E126FCDA23004762B1 /* AppDelegate.swift in Sources */,
+				CEC912E326FCDA23004762B1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC912EF26FCDA27004762B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC912F826FCDA27004762B1 /* visizovPW2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC912FA26FCDA27004762B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC9130326FCDA27004762B1 /* visizovPW2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEC912F526FCDA27004762B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC912DC26FCDA23004762B1 /* visizovPW2 */;
+			targetProxy = CEC912F426FCDA27004762B1 /* PBXContainerItemProxy */;
+		};
+		CEC9130026FCDA27004762B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC912DC26FCDA23004762B1 /* visizovPW2 */;
+			targetProxy = CEC912FF26FCDA27004762B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEC912E626FCDA23004762B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC912E726FCDA23004762B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEC912EB26FCDA26004762B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC912EC26FCDA26004762B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEC9130526FCDA27004762B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEC9130626FCDA27004762B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC9130826FCDA27004762B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M62GWSN92R;
+				INFOPLIST_FILE = visizovPW2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sizov-Apps.visizovPW2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEC9130926FCDA27004762B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M62GWSN92R;
+				INFOPLIST_FILE = visizovPW2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sizov-Apps.visizovPW2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEC9130B26FCDA27004762B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M62GWSN92R;
+				INFOPLIST_FILE = visizovPW2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sizov-Apps.visizovPW2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/visizovPW2.app/visizovPW2";
+			};
+			name = Debug;
+		};
+		CEC9130C26FCDA27004762B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M62GWSN92R;
+				INFOPLIST_FILE = visizovPW2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sizov-Apps.visizovPW2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/visizovPW2.app/visizovPW2";
+			};
+			name = Release;
+		};
+		CEC9130E26FCDA27004762B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M62GWSN92R;
+				INFOPLIST_FILE = visizovPW2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sizov-Apps.visizovPW2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = visizovPW2;
+			};
+			name = Debug;
+		};
+		CEC9130F26FCDA27004762B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M62GWSN92R;
+				INFOPLIST_FILE = visizovPW2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sizov-Apps.visizovPW2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = visizovPW2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC912D826FCDA23004762B1 /* Build configuration list for PBXProject "visizovPW2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC9130526FCDA27004762B1 /* Debug */,
+				CEC9130626FCDA27004762B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC9130726FCDA27004762B1 /* Build configuration list for PBXNativeTarget "visizovPW2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC9130826FCDA27004762B1 /* Debug */,
+				CEC9130926FCDA27004762B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC9130A26FCDA27004762B1 /* Build configuration list for PBXNativeTarget "visizovPW2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC9130B26FCDA27004762B1 /* Debug */,
+				CEC9130C26FCDA27004762B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC9130D26FCDA27004762B1 /* Build configuration list for PBXNativeTarget "visizovPW2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC9130E26FCDA27004762B1 /* Debug */,
+				CEC9130F26FCDA27004762B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC912D526FCDA23004762B1 /* Project object */;
+}
